@@ -1,0 +1,36 @@
+name: Download problem
+description: Get help with a video, audio or file-saving problem.
+title: "[Download] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us where the download stopped. Reports are public; describe the problem without personal information.
+        The troubleshooting guide is at https://vidquark.com/blog/tiktok-video-download-not-working.
+  - type: dropdown
+    id: step
+    attributes:
+      label: Which step needs help?
+      options:
+        - Getting a result from a video link
+        - Transferring an MP4 video
+        - Converting or transferring MP3 audio
+        - Finding or playing the saved file
+        - Another step
+    validations:
+      required: true
+  - type: input
+    id: device_browser
+    attributes:
+      label: Device and browser
+      description: For example, iPhone with Safari or Windows with Chrome.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the displayed error and what you expected to happen.
+    validations:
+      required: true
