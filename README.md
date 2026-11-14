@@ -15,6 +15,8 @@ Use a public video you own or have permission to save. Available formats, resolu
 
 For audio, you can start with the dedicated [TikTok to MP3 tool](https://vidquark.com/tiktok-to-mp3?utm_source=github&utm_medium=referral&utm_campaign=public_help_20261114). Paste the video link and choose **Find audio**, then **Download Audio MP3**.
 
+![VidQuark MP3 tool with a video-link field and Find audio button](assets/mp3-tool.jpg)
+
 ## Find your saved file
 
 | Device | Where to start | Full guide |
