@@ -27,6 +27,20 @@ For audio, you can start with the dedicated [TikTok to MP3 tool](https://vidquar
 
 An MP4 contains video and may include audio; an MP3 contains audio only. Renaming a file does not convert its contents. See the [MP4 playback and codec guide](https://vidquark.com/blog/tiktok-to-mp4-converter) or the [MP3 walkthrough](https://vidquark.com/blog/tiktok-mp3-downloader-extract-audio).
 
+## Check an MP3 before editing
+
+Open the completed file in MediaInfo and check its codec, bitrate, sample rate, channel count and duration. [MediaInfo](https://mediaarea.net/en/MediaInfo)
+
+For FFmpeg users, the command below reports the audio codec, sample rate and channel count. Replace `input.mp3` with your completed file's path.
+
+```shell
+ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of json "input.mp3"
+```
+
+A single VidQuark MP3 checked on November 16, 2026 reported the codec `mp3`, a sample rate of `44100` Hz and `2` channels. Your file's properties depend on the source and conversion settings.
+
+The current MP3 download flow uses automatic variable-bitrate encoding. Check the resulting bitrate against your editor's requirements. The walkthrough includes the conversion and file-check steps. [MP3 file checks](https://vidquark.com/blog/tiktok-mp3-downloader-extract-audio?utm_source=github&utm_medium=referral&utm_campaign=mp3_file_checks_20261116) · [ffprobe reference](https://ffmpeg.org/ffprobe.html)
+
 ## Set an MP3 as your Android ringtone
 
 Use a sound you own or have permission to save and use. Play the completed MP3 first to check its audio.
