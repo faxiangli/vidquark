@@ -27,6 +27,14 @@ For audio, you can start with the dedicated [TikTok to MP3 tool](https://vidquar
 
 An MP4 contains video and may include audio; an MP3 contains audio only. Renaming a file does not convert its contents. See the [MP4 playback and codec guide](https://vidquark.com/blog/tiktok-to-mp4-converter) or the [MP3 walkthrough](https://vidquark.com/blog/tiktok-mp3-downloader-extract-audio).
 
+## Set an MP3 as your Android ringtone
+
+Use a sound you own or have permission to save and use. Play the completed MP3 first to check its audio.
+
+In **Files by Google**, open **Audio** under **Categories**, find and play the MP3, then choose **More → Set as ringtone**. Follow the permission prompt if Android displays one.
+
+These assignment steps follow Google's Files by Google instructions. The VidQuark walkthrough also covers saving the MP3 and finding it in Chrome Downloads. [Google's ringtone instructions](https://support.google.com/files/answer/10018943?hl=en) · [Android ringtone walkthrough](https://vidquark.com/blog/tiktok-sound-android-ringtone?utm_source=github&utm_medium=referral&utm_campaign=android_ringtone_help_20261115)
+
 ## Get help with a failed download
 
 Check that the original video is still publicly available, copy a fresh link, and follow any request-limit waiting message. If a transfer stops, check your connection and device storage. The [troubleshooting guide](https://vidquark.com/blog/tiktok-video-download-not-working) covers the main stages.
