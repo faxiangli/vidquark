@@ -39,7 +39,7 @@ ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate
 
 A single VidQuark MP3 checked on November 16, 2026 reported the codec `mp3`, a sample rate of `44100` Hz and `2` channels. Your file's properties depend on the source and conversion settings.
 
-The current MP3 download flow uses automatic variable-bitrate encoding. Check the resulting bitrate against your editor's requirements. The walkthrough includes the conversion and file-check steps. [MP3 file checks](https://vidquark.com/blog/tiktok-mp3-downloader-extract-audio?utm_source=github&utm_medium=referral&utm_campaign=mp3_file_checks_20261116) · [ffprobe reference](https://ffmpeg.org/ffprobe.html)
+MP3 files converted by VidQuark use automatic variable-bitrate encoding. Check each downloaded file's actual bitrate against your editor's requirements. The walkthrough includes the conversion and file-check steps. [MP3 file checks](https://vidquark.com/blog/tiktok-mp3-downloader-extract-audio?utm_source=github&utm_medium=referral&utm_campaign=mp3_file_checks_20261116) · [ffprobe reference](https://ffmpeg.org/ffprobe.html)
 
 ## Set an MP3 as your Android ringtone
 
