@@ -53,6 +53,14 @@ These assignment steps follow Google's Files by Google instructions. The VidQuar
 
 Check that the original video is still publicly available, copy a fresh link, and follow any request-limit waiting message. If a transfer stops, check your connection and device storage. The [troubleshooting guide](https://vidquark.com/blog/tiktok-video-download-not-working) covers the main stages.
 
+### If an MP4 source refuses the download
+
+Since November 24, 2026, a failed direct MP4 transfer can trigger one automatic server download attempt using the original TikTok video link. When the dialog says **Trying another source**, keep it open while that attempt finishes. The available video quality may differ.
+
+Choose **Cancel Download** to stop the request. If you see a request-limit message, wait as directed before trying again. Once **Your file is ready** appears, check the browser's Downloads list and play the completed file to confirm its picture and sound.
+
+[Try the updated MP4 downloader](https://vidquark.com/?utm_source=github&utm_medium=referral&utm_campaign=mp4_fallback_help_20261124). If the problem repeats, use the report link below with the original public TikTok page URL, your device/browser and the displayed error.
+
 [Open a download problem report](https://github.com/faxiangli/vidquark/issues/new/choose) with your device, browser, the step that failed and the displayed error. Reports are public, so describe the problem without personal information. You can also suggest improvements through the Issues tab.
 
 ## About this repository
